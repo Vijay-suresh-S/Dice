@@ -2,17 +2,23 @@ body{
     background-color: #F6FB7A;
 }
 
-h1 h3{
+h1,h3{
     color: #914F1E;
+    text-align: center;
+    
 }
 
 footer{
-    color:white;
+    color:black;
+    text-align: right;
+    margin-right: 40px;
 }
 
 .container{
     display: flex;
-    flex-basis: 10px;
+    height: 70vh;
+    gap: 30px;
     justify-content: center;
     align-items: center;    
+
 }
